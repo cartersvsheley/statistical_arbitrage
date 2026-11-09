@@ -6,7 +6,7 @@ Daily stock returns are centered and scaled over training observations. PCA uses
 
 Two-direction Engle–Granger tests use log adjusted prices, with a Bonferroni correction for orientation and BH correction across screened candidates. Residual ADF results are descriptive; candidate selection complicates nominal inferential guarantees. Rolling hedge stability and mean-reversion diagnostics supplement these tests.
 
-Validation compares entry thresholds 1.5, 2.0, and 2.5. Ranking combines statistical, stability, reversion, economic and validation scores. Execution feasibility is unobserved and has zero ranking weight. Candidates need positive validation net return, at least two trades and positive hedge elasticity. Only validated pairs rediscovered in the refit may be selected. Strict selection additionally requires refit q <= .05. Both modes select at most ten pairs.
+Validation compares entry thresholds 1.5, 2.0, and 2.5. Ranking combines statistical (15%), stability (15%), reversion(15%), economic(25%) and validation scores (30%). Execution feasibility is unobserved and has zero ranking weight. Candidates need positive validation net return, at least two trades and positive hedge elasticity. Only validated pairs rediscovered in the refit may be selected. Strict selection additionally requires refit q <= .05. Both modes select at most ten pairs.
 
 Signals formed at close t execute at the next session's adjusted close. Entry gross notional is one; dollar weights are proportional to [direction, -direction * beta]. Commission, slippage, and calendar-day borrow are charged. Fixed equal sleeves use additive P&L on initial capital. No cash interest or long financing is modeled. Adjusted units are synthetic total-return proxies, not executable share fills.
 
