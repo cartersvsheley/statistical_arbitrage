@@ -1,6 +1,6 @@
 # AI collaboration
 
-This project was developed through an iterative conversation with ChatGPT. AI assistance was substantial and is part of what this portfolio project demonstrates.
+This project was developed through an iterative conversation with ChatGPT. AI  was implemented to serve the user in coding and in organization and is part of what this portfolio project demonstrates.
 
 ## Project-owner direction
 
