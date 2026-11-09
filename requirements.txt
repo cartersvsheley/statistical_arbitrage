@@ -1,0 +1,14 @@
+numpy
+pandas
+pyarrow
+scipy
+statsmodels
+scikit-learn
+matplotlib
+PyYAML
+pandas_market_calendars
+pytest
+yfinance
+openpyxl
+ipykernel
+nbformat

@@ -1,0 +1,6 @@
+source,ticker,issue,resolution
+pitindex sp500,BLL,pitindex_only_not_in_dated_roster,historical ticker is BALL
+pitindex sp500,FISV,pitindex_only_not_in_dated_roster,historical ticker is FI
+pitindex sp500,VMRK,pitindex_only_not_in_dated_roster,"unsupported extra; excluded from final, retained in raw source and this audit"
+dated Wikipedia and IVV,BALL,dated_roster_only,retain dated historical ticker
+dated Wikipedia and IVV,FI,dated_roster_only,retain dated historical ticker

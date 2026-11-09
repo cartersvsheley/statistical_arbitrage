@@ -1,0 +1,50 @@
+{
+  "entry_threshold": 1.5,
+  "config": {
+    "paths": {
+      "adjusted_prices": "data/processed/adjusted_prices.parquet",
+      "universe": "data/universe/equity_universe_2023.csv",
+      "output": "results/local"
+    },
+    "periods": {
+      "development_start": "2021-01-01",
+      "development_end": "2022-12-30",
+      "validation_start": "2023-01-01",
+      "validation_end": "2023-12-29",
+      "test_start": "2024-01-01",
+      "test_end": "2025-12-31"
+    },
+    "discovery": {
+      "min_coverage": 0.98,
+      "min_returns": 252,
+      "clusters": 40,
+      "pairs_per_cluster": 10,
+      "parallel_replicates": 100
+    },
+    "strategy": {
+      "window": 60,
+      "entry_thresholds": [
+        1.5,
+        2.0,
+        2.5
+      ],
+      "exit_z": 0.25,
+      "stop_z": 4.0,
+      "max_hold": 40,
+      "commission_bps": 1.0,
+      "slippage_bps": 5.0,
+      "borrow_rate": 0.03,
+      "top_pairs": 10
+    },
+    "ranking_weights": {
+      "statistical": 0.15,
+      "stability": 0.15,
+      "reversion": 0.15,
+      "economic": 0.25,
+      "validation": 0.3,
+      "execution": 0.0
+    }
+  },
+  "selection_objective": "validation mean net P&L of selected pairs",
+  "test_used_for_selection": false
+}

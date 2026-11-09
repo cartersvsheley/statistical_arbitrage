@@ -1,0 +1,82 @@
+[
+  {
+    "file": "arch_wikipedia.csv",
+    "url": "https://raw.githubusercontent.com/riazarbi/sp500-scraper/3448dba00a0698b6d43eb4fcce57680345ca9823/wikipedia/sp500/csv/20231229.csv",
+    "sha256": "e15d152ff1adcb5e7832f321efe001431bca8bd7a74c873daaa44ace818a277d",
+    "retrieved_date": "2026-10-20",
+    "retrieval_timezone": "America/Denver",
+    "description": "Archived Wikipedia S&P 500 snapshot; 2023-12-29"
+  },
+  {
+    "file": "arch_ishares.csv",
+    "url": "https://raw.githubusercontent.com/riazarbi/sp500-scraper/3448dba00a0698b6d43eb4fcce57680345ca9823/ishares/sp500/csv/20231229.csv",
+    "sha256": "3519c5c997484298f2f6b1005b5415fc2135de6881c0d29b8ffff9b9cbb56c79",
+    "retrieved_date": "2026-10-20",
+    "retrieval_timezone": "America/Denver",
+    "description": "Archived IVV fund holdings; 2023-12-29; proxy, not official index roster"
+  },
+  {
+    "file": "kiwix400",
+    "url": "https://offline.goud.so/content/wikipedia_en_all_maxi_2024-01/A/List_of_S%26P_400_companies",
+    "sha256": "b2b10e8665e27ec7c3bedd4aa0fccd9d959a69ac280a4450c2821bc5cd6d15b3",
+    "retrieved_date": "2026-10-20",
+    "retrieval_timezone": "America/Denver",
+    "description": "Wikipedia revision 1193645510 mirrored in January 2024 Kiwix archive; includes Jan 5 changes"
+  },
+  {
+    "file": "sec_tickers.json",
+    "url": "https://www.sec.gov/files/company_tickers.json",
+    "sha256": "bbffa40adbea620bba590da9a193ea14b21bfc04992f102549a2688d4e7d32df",
+    "retrieved_date": "2026-10-20",
+    "retrieval_timezone": "America/Denver",
+    "description": "Current SEC ticker-CIK reference; not historical membership"
+  },
+  {
+    "file": "sp500_seed.csv",
+    "url": "https://raw.githubusercontent.com/arielNacamulli/pitindex/2df030e5c9be7c83cf4b28c3d8597d74d274757e/pitindex/data/sp500_seed.csv",
+    "sha256": "1a444b80576333455e6a77d24ac12b5eb1095fbdf2d208e1db07396592e3f8aa",
+    "retrieved_date": "2026-10-20",
+    "retrieval_timezone": "America/Denver",
+    "description": "Pinned pitindex reconstruction / metadata; built 2026-09-07"
+  },
+  {
+    "file": "sp500_changes.csv",
+    "url": "https://raw.githubusercontent.com/arielNacamulli/pitindex/2df030e5c9be7c83cf4b28c3d8597d74d274757e/pitindex/data/sp500_changes.csv",
+    "sha256": "4d5757c55bb1c113fbd5bb15ae4196000e2a87a34271e680435b3b838e8e1456",
+    "retrieved_date": "2026-10-20",
+    "retrieval_timezone": "America/Denver",
+    "description": "Pinned pitindex reconstruction / metadata; built 2026-09-07"
+  },
+  {
+    "file": "sp400_seed.csv",
+    "url": "https://raw.githubusercontent.com/arielNacamulli/pitindex/2df030e5c9be7c83cf4b28c3d8597d74d274757e/pitindex/data/sp400_seed.csv",
+    "sha256": "b16cc5e36c57e4e4b3f731212196d60b04358f97985dad27adc0961716d3dc03",
+    "retrieved_date": "2026-10-20",
+    "retrieval_timezone": "America/Denver",
+    "description": "Pinned pitindex reconstruction / metadata; built 2026-09-07"
+  },
+  {
+    "file": "sp400_changes.csv",
+    "url": "https://raw.githubusercontent.com/arielNacamulli/pitindex/2df030e5c9be7c83cf4b28c3d8597d74d274757e/pitindex/data/sp400_changes.csv",
+    "sha256": "ace43903dd31866b223f82455cc6f0ff98bceed608ee32bd1dd87feb0c955ea5",
+    "retrieved_date": "2026-10-20",
+    "retrieval_timezone": "America/Denver",
+    "description": "Pinned pitindex reconstruction / metadata; built 2026-09-07"
+  },
+  {
+    "file": "sp400_current.csv",
+    "url": "https://raw.githubusercontent.com/arielNacamulli/pitindex/2df030e5c9be7c83cf4b28c3d8597d74d274757e/pitindex/data/sp400_current.csv",
+    "sha256": "f73de533f7de27176bdcdaacce9ac5eee4257ef7d3cbf5851375c5a808e90416",
+    "retrieved_date": "2026-10-20",
+    "retrieval_timezone": "America/Denver",
+    "description": "Pinned pitindex reconstruction / metadata; built 2026-09-07"
+  },
+  {
+    "file": "build_metadata.json",
+    "url": "https://raw.githubusercontent.com/arielNacamulli/pitindex/2df030e5c9be7c83cf4b28c3d8597d74d274757e/pitindex/data/build_metadata.json",
+    "sha256": "1fad2a065f348999f149c7aba986c52d0267e5ff47d750b4d09f038d18be4184",
+    "retrieved_date": "2026-10-20",
+    "retrieval_timezone": "America/Denver",
+    "description": "Pinned pitindex reconstruction / metadata; built 2026-09-07"
+  }
+]
